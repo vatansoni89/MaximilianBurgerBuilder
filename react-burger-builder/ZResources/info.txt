@@ -1,0 +1,42 @@
+----------------------------Planning a React App----------------------------------------------
+
+     Planning a React App:
+       Component tree
+       Application State
+       Components vs Containers
+
+Component Tree:
+  Header
+    Orders
+    Builder:
+      Burger Builder:
+        Ingerdient:
+          Add
+          Remove
+        Checkout
+    Logo
+         
+App:
+  Layout:
+    Toolbar:
+      DrawerTogger
+      Logo
+      Navigation Items
+    SideDrawer:
+      Logo
+    BackDrop
+    {props.children}:
+      Different Pages:
+        Burger-Builder Page:
+          Build Controls:
+            - Build Controls
+            Order Button
+          Burger
+            - Ingredient
+          Modal:
+            {prop.children}
+
+-------------------------------------------------------------------------------------------------------------------            
+
+Create react-burger-builder:
+  create-react-app react-burger-builder
